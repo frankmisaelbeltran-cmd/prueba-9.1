@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FELIZ CUMPLEAÑOS </title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- CONTENEDOR DE CORAZONES -->
+  <div id="hearts"></div>
+
+  <!-- CONTENEDOR PRINCIPAL -->
+  <div class="container">
+
+    <div class="photo polaroid left">
+      <img src="Fogata.jpg">
+    </div>
+
+    <div class="photo polaroid right">
+      <img src="Cesped.jpg">
+    </div>
+
+    <div class="title-box">
+      <h1 id="title">FELIZ CUMPLEAÑOS <br> TE AMO</h1>
+      <button id="btnNext" class="next-btn">SIGUIENTE</button>
+    </div>
+
+    <div class="photo polaroid bottom">
+      <img src="Escenario.jpg">
+    </div>
+
+</div>
+
+   <!-- ESCENA 2 - LIBRO -->
+<div id="scene2" class="scene hidden">
+
+    <div id="cloud-layer"></div>
+
+  <!-- 📘 LIBRO -->
+  <div class="book">
+
+    <div class="book-header">
+      <h2>Para ti💐</h2>
+    </div>
+
+    <div class="page active">
+      <p>
+        Hice esto especialmente para vos espero que te guste, esta mi manera de desmostrarte que tan grande
+        es mi amor por vos.<br>
+        TE QUIERO💕
+      </p>
+      <img src="Guatemala.jpg" alt="Recuerdo especial">
+    </div>
+
+    <div class="page">
+      <p>
+        Feliz Cumpleaños #23, te deseo lo mejor para tu vida y especialmente que te vaya bien en todo, estoy muy orgulloso
+        de vos, sos un ejemplo a seguir, una admiración para mi, te mereces todo lo bueno.
+      </p>
+      <img src="Nose.jpg" alt="Otro recuerdo">
+    </div>
+
+    <div class="page">
+      <div class="memory-list">
+
+        <div class="memory">
+          <p>Existen más de 100 servidores de Mic up</p>
+          <img src="Cora2.webp" alt="Recuerdo 1">
+        </div>
+
+        <div class="memory">
+          <p>Más de 9000 jugadores activos diariamente (cientos de millones de vistas desde su lanzamiento)</p>
+          <img src="tulipanes.png" alt="Recuerdo 2">
+        </div>
+
+        <div class="memory">
+          <p>
+            Y te encontré. Gracias a Dios, gracias al que le tenga que dar las gracias por encontrarte <br>
+            Gracias por aceptarme...💕💕💕
+          </p>
+          <img src="Mexico.jpg" alt="Recuerdo 3">
+        </div>
+
+      </div>
+    </div>
+
+    <div class="book-footer">
+      <button id="nextPage">Siguiente página</button>
+    </div>
+
+  </div>
+</div>
+
+
+
+<!-- ESCENA 3 - CONSTELACIÓN -->
+<div id="scene3" class="scene hidden">
+
+  <!-- FONDO DE ESTRELLAS -->
+  <div id="stars"></div>
+
+  <!-- CONSTELACIÓN -->
+  <svg
+    id="constellation"
+    viewBox="0 0 300 300"
+    xmlns="http://www.w3.org/2000/svg">
+
+    <!-- ESTRELLAS PRINCIPALES -->
+    <circle cx="150" cy="120"  r="3.5" class="key-star"/> 
+    <circle cx="100" cy="85"  r="3.5" class="key-star"/> 
+    <circle cx="60"  cy="110" r="3.5" class="key-star"/>
+    <circle cx="60"  cy="160" r="3.5" class="key-star"/>
+    <circle cx="150" cy="230" r="3.5" class="key-star"/> 
+    <circle cx="240" cy="160" r="3.5" class="key-star"/>
+    <circle cx="240" cy="110" r="3.5" class="key-star"/>
+    <circle cx="200" cy="85"  r="3.5" class="key-star"/>
+
+    <!-- ESTRELLAS PEQUEÑAS -->
+    <circle cx="130" cy="70"  r="2" class="extra-star"/>
+    <circle cx="110" cy="120" r="2" class="extra-star"/>
+    <circle cx="120" cy="165" r="2" class="extra-star"/>
+
+    <circle cx="170" cy="70"  r="2" class="extra-star"/>
+    <circle cx="190" cy="120" r="2" class="extra-star"/>
+    <circle cx="180" cy="165" r="2" class="extra-star"/>
+
+    <!-- LÍNEAS -->
+    <path
+      d="M150 120
+         L100 85
+         L60 110
+         L60 160
+         L150 230
+         L240 160
+         L240 110
+         L200 85
+         L150 120"
+      class="constellation-line"/>
+  </svg>
+
+  <div class="message-wrapper">
+  <img src="Abissal.jpg" class="side-photo">
+
+  <div class="universe-box">
+  <p>Para: Joselin💕💕<br> Amor, cuando te conocí nunca pense que llegariamos tan lejos y en esos 2 meses me enamore como 
+    no tenes ni idea, cada que vez hablaba con vos me moria por las ganas que tenia de decirte lo que sentía y ahora que estas 
+    a mi lado no me guardo ni un "Te amo" o un "Te quiero", simplemente eres perfecta asi sin más, cada dia te quiero mas
+    que el anterior y que el anterior, no se que nos depare en el futuro pero quiero estar a tu lado siempre. Gracias por
+    estar a mi lado y hacerme feliz cada día. <br> -Con mucho amor Frank
+
+</p>
+</div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
